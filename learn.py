@@ -1,5 +1,4 @@
-list = ["apple","orange","banana","mango","orange"]
-
+list = ["apple","orange","banana","mango","orange"] #list is stored a multiple element in a single varibale
 # list method
 # 1.append()
 # 2.clear()
@@ -71,10 +70,10 @@ print("\n-------------after-----------------")
 print(len(list))
 print("\n",list)
 
-
 # list3=[x for x in list if "orange" in x]
 # print(list3)
 
 # list2=[1,2,3,4,5]
 # list3=list+list2
 # print(list3)
+
