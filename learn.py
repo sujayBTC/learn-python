@@ -1,4 +1,4 @@
-list = ["apple","orange","banana","mango","orange"] #list is stored a multiple element in a single varibale
+# list = ["apple","orange","banana","mango","orange"] #list is stored a multiple element in a single varibale
 # list method
 # 1.append()
 # 2.clear()
@@ -54,8 +54,8 @@ list = ["apple","orange","banana","mango","orange"] #list is stored a multiple e
 # nums.clear()          # []
 
 
-print("\n",list)
-print("\n-------------after-----------------")
+# print("\n",list)
+# print("\n-------------after-----------------")
 
 # if "banana" in list:
 #     print("yes is there!")
@@ -67,8 +67,8 @@ print("\n-------------after-----------------")
 
 # del list[0] -> del keyword used to delete a element or entire array
 
-print(len(list))
-print("\n",list)
+# print(len(list))
+# print("\n",list)
 
 # list3=[x for x in list if "orange" in x]
 # print(list3)
@@ -77,3 +77,28 @@ print("\n",list)
 # list3=list+list2
 # print(list3)
 
+
+
+# *****************tuple********************
+# tuple-> tuble also contain a multiple element in a single variable 
+# tubles->tuble enclosed a (brackets)
+
+tuples=("apple","banana","mango","watermeloan","cherry")
+
+# print(tuples)
+
+# tuples-> tuples are unchangable and ordered and allows duplicates
+# if you want to change a any specific element in tuples you should convert a type like tuples into list then you can change that
+    # x = ("apple", "banana", "cherry")
+    # y = list(x) -> convert tuples into list
+    # y[1] = "kiwi" ->add a kiwi text in 1st index of y list
+    # x = tuple(y) then convert list into tuple
+    # print(x) 
+
+
+# unpacked ->it's like Destructuring concept from js
+# (s1,s2,*s3)=tuples #-> *s3 include a all balanced element
+
+# print(s1) #-> it's hold a first index element in tuples
+# print(s2) #-> it's hold a 2nd index element in tuples
+# print(s3) #-> it's hold a balance element in tuples
